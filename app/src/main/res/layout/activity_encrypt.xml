@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <EditText
+        android:id="@+id/edtText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:textAlignment="center"
+        android:background="@drawable/bg_edittext"
+        android:text=""
+        android:textColor="@android:color/black"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnSubmit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@android:color/holo_blue_dark"
+        android:text="SUBMIT"
+        android:textColor="@android:color/white"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtResText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:scrollbarAlwaysDrawVerticalTrack="true"
+        android:textColor="@android:color/holo_red_dark"
+        android:text="a1n1 1a1p2l1e1 1l1a2p1t1o1p2"
+        android:visibility="gone"
+        android:textAlignment="center"/>
+
+</LinearLayout>
